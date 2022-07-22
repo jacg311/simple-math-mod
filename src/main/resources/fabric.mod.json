@@ -1,20 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "simple_math",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Simple Math",
+  "description": "Client-Side mod that adds command to do simple math for you",
   "authors": [
-    "Me!"
+    "jacg"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/simple_math/icon.png",
 
   "environment": "*",
   "entrypoints": {
