@@ -18,21 +18,17 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+        "net.jacg.simple_math.SimpleMathClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "simple_math.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
